@@ -40,6 +40,31 @@ def AreaCilindro (radio, altura)
     a = (2*radio*altura*pi)+(2*(pi*(radio**2)))
     return (a) 
 
+sum1=float(input("Ingrese el primer sumando: "))
+sum2=float(input("Ingrese el segundo sumando: "))
+suma=sum1+sum2
+print(str(suma))
+                   
+minu=float(input("Ingrese el minuendo: "))
+sus=float(input("Ingrese el sustraendo: "))
+diferencia=minu-sus
+print(str(diferencia))
+      
+fac1=float(input("Ingrese el primer factor: "))
+fac2=float(input("Ingrese el segundo factor: "))
+producto=fac1*fac2
+print(str(producto))
+                 
+divid=float(input("Ingrese el dividendo: "))
+divis=float(input("Ingrese el divisor: "))
+cociente=divid//divis
+print(str(cociente))
+                   
+bas=float(input("Ingrese la base: "))
+exp=float(input("Ingrese el exponente: "))
+potencia=bas**exp
+print(str(potencia))
+
 reset = 0
 print("Operaciones disponibles : ")
     # Despues de aqui se ponen las funciones que se han creado
@@ -134,27 +159,4 @@ if operacion == "Área cilindro":
 
 print("La respuesta es {rpta}")                  
 
-sum1=float(input("Ingrese el primer sumando: "))
-sum2=float(input("Ingrese el segundo sumando: "))
-suma=sum1+sum2
-print(str(suma))
-                   
-minu=float(input("Ingrese el minuendo: "))
-sus=float(input("Ingrese el sustraendo: "))
-diferencia=minu-sus
-print(str(diferencia))
-      
-fac1=float(input("Ingrese el primer factor: "))
-fac2=float(input("Ingrese el segundo factor: "))
-producto=fac1*fac2
-print(str(producto))
-                 
-divid=float(input("Ingrese el dividendo: "))
-divis=float(input("Ingrese el divisor: "))
-cociente=divid//divis
-print(str(cociente))
-                   
-bas=float(input("Ingrese la base: "))
-exp=float(input("Ingrese el exponente: "))
-potencia=bas**exp
-print(str(potencia))
+
